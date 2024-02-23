@@ -1,0 +1,104 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Guitar Fundamentals",
+            "slug": "guitar-fundamentals",
+            "description": "Learn the basic principles of playing the guitar.",
+            "price": 49.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "guitar-fundamentals.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Piano Basics",
+            "slug": "piano-basics",
+            "description": "Discover the essentials of playing the piano.",
+            "price": 59.99,
+            "instructor": "Jane Smith",
+            "isFeatured": false,
+            "image": "piano-basics.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Drum Techniques",
+            "slug": "drum-techniques",
+            "description": "Master various drumming techniques and styles.",
+            "price": 69.99,
+            "instructor": "Mike Johnson",
+            "isFeatured": true,
+            "image": "drum-techniques.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Bass Guitar Mastery",
+            "slug": "bass-guitar-mastery",
+            "description": "Become a proficient bass guitarist with advanced techniques.",
+            "price": 54.99,
+            "instructor": "Sara Miller",
+            "isFeatured": false,
+            "image": "bass-guitar-mastery.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Singing for Beginners",
+            "slug": "singing-for-beginners",
+            "description": "Start your singing journey with fundamental vocal exercises.",
+            "price": 39.99,
+            "instructor": "Alex Turner",
+            "isFeatured": true,
+            "image": "singing-for-beginners.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Songwriting Workshop",
+            "slug": "songwriting-workshop",
+            "description": "Craft compelling songs with professional songwriting techniques.",
+            "price": 79.99,
+            "instructor": "Emily Davis",
+            "isFeatured": true,
+            "image": "songwriting-workshop.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Jazz Piano Masterclass",
+            "slug": "jazz-piano-masterclass",
+            "description": "Immerse yourself in the world of jazz piano with advanced improvisation.",
+            "price": 89.99,
+            "instructor": "Mark Anderson",
+            "isFeatured": false,
+            "image": "jazz-piano-masterclass.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Electronic Music Production",
+            "slug": "electronic-music-production",
+            "description": "Create electronic music tracks with professional production techniques.",
+            "price": 64.99,
+            "instructor": "Chris Roberts",
+            "isFeatured": false,
+            "image": "electronic-music-production.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Violin Essentials",
+            "slug": "violin-essentials",
+            "description": "Learn the basics of playing the violin and read sheet music.",
+            "price": 49.99,
+            "instructor": "Eva Thompson",
+            "isFeatured": true,
+            "image": "violin-essentials.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Acoustic Guitar Workshop",
+            "slug": "acoustic-guitar-workshop",
+            "description": "Explore acoustic guitar techniques and fingerstyle playing.",
+            "price": 59.99,
+            "instructor": "Ryan Adams",
+            "isFeatured": true,
+            "image": "acoustic-guitar-workshop.jpg"
+        }
+    ]
+}
