@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Herosections from './components/Herosections';
 import FeaturedCourses from './components/FeaturedCourses';
 import WhyChoseUs from './components/WhyChoseUs';
+import TestimonialsCard from './components/TestimonialsCard';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Herosections />
       <FeaturedCourses />
       <WhyChoseUs />
+      <TestimonialsCard />
     </main>
   );
 }
