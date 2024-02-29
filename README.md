@@ -28,7 +28,4 @@ This website is designed to provide a seamless and immersive experience for user
 
 ## Live Demo
 
-<video width="640" height="360" controls>
-  <source src="./public//demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![screenshot](./public//demo.gif);
