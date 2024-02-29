@@ -3,16 +3,16 @@
 import Image from 'next/image';
 import React from 'react';
 import { CardBody, CardContainer, CardItem } from '../components/ui/3d-card';
-import courseData from '../data/music_courses.json';
+import codingCourses from '../data/coding_courses.json';
 
 function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
       <h2 className=" text-4xl text-center text-white font-bold">
-        All Courses : {courseData.courses.length}
+        All Courses : {codingCourses.courses.length}
       </h2>
       <div className="flex flex-wrap justify-center">
-        {courseData.courses.map((course) => (
+        {codingCourses.courses.map((course) => (
           <CardContainer className="inter-var m-4">
             <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
               <CardItem
@@ -43,14 +43,14 @@ function page() {
                   as="button"
                   className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                 >
-                  Try now →
+                  Demo Class →
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
                   className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
                 >
-                  Sign up
+                  Enroll Now
                 </CardItem>
               </div>
             </CardBody>

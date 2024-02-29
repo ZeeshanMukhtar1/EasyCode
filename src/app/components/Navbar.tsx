@@ -22,10 +22,14 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Our Courses">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/courses">All Courses</HoveredLink>
-            <HoveredLink href="/courses">Basic music theorey</HoveredLink>
-            <HoveredLink href="/courses">advaned composition</HoveredLink>
-            <HoveredLink href="/courses">song writting</HoveredLink>
-            <HoveredLink href="/courses">music production</HoveredLink>
+            <HoveredLink href="/courses">Angular for Beginners</HoveredLink>
+            <HoveredLink href="/courses">
+              ReactJS: The Complete Guide
+            </HoveredLink>
+            <HoveredLink href="/courses">Python for Data Science</HoveredLink>
+            <HoveredLink href="/courses">
+              JavaScript: The Modern Age
+            </HoveredLink>
           </div>
         </MenuItem>
         <Link href={'/contact'}>

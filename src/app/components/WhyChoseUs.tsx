@@ -2,32 +2,42 @@
 import React from 'react';
 import { StickyScroll } from './ui/sticky-scroll-reveal';
 
-const musicSchollContent = [
+const codecontent = [
   {
-    title: 'Interactive Music Courses',
+    title: 'Comprehensive Code Courses',
     description:
-      'Immerse yourself in interactive music courses designed for collaboration with fellow learners, instructors, and music enthusiasts. Explore diverse musical genres, share creative ideas, and enhance your skills with real-time collaboration features. Our platform fosters a dynamic learning environment for aspiring musicians.',
+      'Unlock in-depth knowledge with our comprehensive code courses covering the latest technologies and best practices.',
   },
   {
-    title: 'Live Session Experiences',
+    title: 'Hands-On Learning Experience',
     description:
-      'Witness live changes as they unfold during interactive sessions. Our platform allows you to observe real-time demonstrations, receive immediate feedback, and engage in discussions with instructors and peers. No more waiting for updates—experience the excitement of live music learning.',
+      'Immerse yourself in hands-on coding experiences and real-world projects to reinforce your learning and gain practical skills.',
   },
   {
-    title: 'Harmony in Versioning',
+    title: 'Expert Instructors',
     description:
-      'Embrace the harmony of version control tailored for musicians. Our platform ensures you always have access to the latest content, eliminating confusion and manual updates. Stay in tune with the latest lessons, collaborate seamlessly, and maintain the rhythm of your musical journey.',
+      'Learn from industry experts and experienced instructors who are passionate about sharing their knowledge and insights with you.',
   },
   {
-    title: 'Exploring Musical Genres',
+    title: 'Flexible Learning Paths',
     description:
-      "Dive into a world of musical exploration with real-time updates on course content. Our platform eliminates versioning stress, ensuring you're always connected to the most recent lessons. Stay in sync with the diverse musical landscape, collaborate effortlessly, and enjoy a continuous flow of learning.",
+      'Tailor your learning journey with flexible courses and learning paths designed to meet your specific goals and skill level.',
+  },
+  {
+    title: 'Interactive Coding Challenges',
+    description:
+      'Sharpen your coding skills with interactive challenges and assessments, ensuring a dynamic and engaging learning experience.',
+  },
+  {
+    title: 'Community Support',
+    description:
+      'Join a vibrant community of learners, collaborate with peers, and get support from our community forums to enhance your learning.',
   },
 ];
 function WhyChoseUs() {
   return (
     <div>
-      <StickyScroll content={musicSchollContent} />
+      <StickyScroll content={codecontent} />
     </div>
   );
 }

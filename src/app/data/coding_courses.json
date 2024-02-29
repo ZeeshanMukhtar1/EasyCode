@@ -1,0 +1,104 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "JavaScript Fundamentals",
+            "slug": "javascript-fundamentals",
+            "description": "Learn the basics of JavaScript programming language.",
+            "price": 49.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/javascript.svg"
+        },
+        {
+            "id": 2,
+            "title": "Python for data science",
+            "slug": "python-for-beginners",
+            "description": "Learn the basics of React programming library.",
+            "price": 59.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/python.svg"
+        },
+        {
+            "id": 3,
+            "title": "Java  for Beginners",
+            "slug": "java-for-beginners",
+            "description": "Learn the basics of Node.js programming language.",
+            "price": 69.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/java.svg"
+        },
+        {
+            "id": 4,
+            "title": "PHP for Beginners",
+            "slug": "php-for-beginners",
+            "description": "Learn the basics of Angular programming library.",
+            "price": 79.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/php.svg"
+        },
+        {
+            "id": 5,
+            "title": "Node.Js for Beginners",
+            "slug": "nodejs-for-beginners",
+            "description": "Learn the basics of Vue.js programming library.",
+            "price": 89.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/frameworks/nodejs.svg"
+        },
+        {
+            "id": 6,
+            "title": "TypeScript for Beginners",
+            "slug": "typescript-for-beginners",
+            "description": "Learn the basics of Svelte programming library.",
+            "price": 99.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/typescript.svg"
+        },
+        {
+            "id": 7,
+            "title": "React for Beginners",
+            "slug": "react-for-beginners",
+            "description": "Learn the basics of React programming library.",
+            "price": 109.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/frameworks/react.svg"
+        },
+        {
+            "id": 8,
+            "title": "Angular for Beginners",
+            "slug": "angular-for-beginners",
+            "description": "Learn the basics of Angular programming library.",
+            "price": 119.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/frameworks/angular.svg"
+        },
+        {
+            "id": 9,
+            "title": "Vue.js for Beginners",
+            "slug": "vuejs-for-beginners",
+            "description": "Learn the basics of Vue.js programming library.",
+            "price": 129.99,
+            "instructor": "John Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/frameworks/vuejs.svg"
+        },
+        {
+            "id": 10,
+            "title": "  C++ for Beginners",
+            "slug": "c++-for-beginners",
+            "description": "Learn the basics of Svelte programming library.",
+            "price": 139.99,
+            "instructor": "Jane Doe",
+            "isFeatured": true,
+            "image": "https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/c%2B%2B.svg"
+        }
+    ]
+}

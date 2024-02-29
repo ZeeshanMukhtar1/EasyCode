@@ -7,9 +7,8 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+            Our mission is to provide the best online learning platform for
+            students and professionals to learn and upgrade their skills.
           </p>
         </div>
         <div>
@@ -72,16 +71,18 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div>
+        <div className="flex flex-wrap">
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>Bwp , punjab pakstans</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Lodhran district punjab , Pakistan</p>
+          <p>58800</p>
+          <p className="mb-1 text-sm">
+            Email: Zeeshan.Mukhtar@studentambassadors.com
+          </p>
+          <p>Phone: +923302250878</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
-        © 2024 Music accedemy. All rights reserved.
+        © 2024 All rights reserved. Designed by Zeeshan Mukhtar with 💖
       </p>
     </footer>
   );

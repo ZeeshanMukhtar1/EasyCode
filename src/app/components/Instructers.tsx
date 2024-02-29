@@ -7,37 +7,36 @@ function Instructers() {
   const instructers = [
     {
       id: 1,
-      name: 'John Doe',
-      designation: 'Yoga Instructor',
+      name: 'Zeeshan Mukhtar',
+      designation: 'CEO & Founder',
       image:
         'https://res.cloudinary.com/di611res2/image/upload/v1709050109/1701674444512_o1qrce.jpg',
     },
-
     {
       id: 2,
       name: 'John Doe',
-      designation: 'Yoga Instructor',
+      designation: 'Java Instructor',
       image:
         'https://res.cloudinary.com/di611res2/image/upload/v1709050109/1701674444512_o1qrce.jpg',
     },
     {
       id: 3,
-      name: 'John Doe',
-      designation: 'Yoga Instructor',
+      name: 'Jane Doe',
+      designation: 'Python Instructor',
       image:
         'https://res.cloudinary.com/di611res2/image/upload/v1709050109/1701674444512_o1qrce.jpg',
     },
     {
       id: 4,
-      name: 'John Doe',
-      designation: 'Yoga Instructor',
+      name: 'John Smith',
+      designation: 'React Instructor',
       image:
         'https://res.cloudinary.com/di611res2/image/upload/v1709050109/1701674444512_o1qrce.jpg',
     },
     {
       id: 5,
-      name: 'John Doe',
-      designation: 'Yoga Instructor',
+      name: 'Jane Smith',
+      designation: 'JavaScript Instructor',
       image:
         'https://res.cloudinary.com/di611res2/image/upload/v1709050109/1701674444512_o1qrce.jpg',
     },

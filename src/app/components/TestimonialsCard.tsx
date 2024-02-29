@@ -2,34 +2,37 @@
 import React from 'react';
 import { InfiniteMovingCards } from './ui/infinite-moving-cards';
 
-const quotesArray = [
+const testimonialsArray = [
   {
     quote:
-      'Success is not final, failure is not fatal: It is the courage to continue that counts.',
-    name: 'Winston Churchill',
-    title: 'Former Prime Minister of the United Kingdom',
-  },
-  {
-    quote: 'The only way to do great work is to love what you do.',
-    name: 'Steve Jobs',
-    title: 'Co-founder of Apple Inc.',
+      'The coding courses here have been instrumental in my learning journey. The hands-on projects and real-world applications helped me apply theoretical knowledge to practical scenarios. I highly recommend these courses for anyone serious about mastering coding skills.',
+    name: 'Alexandra Johnson',
+    title: 'Web Developer',
   },
   {
     quote:
-      'The future belongs to those who believe in the beauty of their dreams.',
-    name: 'Eleanor Roosevelt',
-    title: 'Former First Lady of the United States',
-  },
-  {
-    quote: "Your time is limited, don't waste it living someone else's life.",
-    name: 'Bill Gates',
-    title: 'Co-founder of Microsoft',
+      "I've tried various online platforms, but this one stands out with its interactive and engaging coding challenges. The instructors are knowledgeable, and the community support is phenomenal. I'm proud to say I've found my coding home here!",
+    name: 'Michael Rodriguez',
+    title: 'Software Engineer',
+    ve: undefined,
   },
   {
     quote:
-      'In the end, we will remember not the words of our enemies, but the silence of our friends.',
-    name: 'Martin Luther King Jr.',
-    title: 'Civil Rights Leader',
+      'As a beginner in coding, I was apprehensive, but these courses made the learning journey enjoyable. The well-structured courses, clear explanations, and supportive community made me feel confident in my coding abilities. Thank you!',
+    name: 'Emily Chen',
+    title: 'Aspiring Developer',
+  },
+  {
+    quote:
+      'These courses provide a comprehensive curriculum that covers the latest technologies. The courses are not just about learning syntax; they focus on problem-solving and building practical skills. These courses have truly elevated my coding expertise.',
+    name: 'Daniel Patel',
+    title: 'Full-stack Developer',
+  },
+  {
+    quote:
+      'I appreciate the commitment to quality. The courses are regularly updated to reflect industry trends, and the instructors go the extra mile to ensure students grasp complex concepts. These courses have been instrumental in my career growth.',
+    name: 'Jessica Carter',
+    title: 'Tech Enthusiast',
   },
 ];
 
@@ -42,7 +45,7 @@ function TestimonialsCard() {
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-6xl">
           <InfiniteMovingCards
-            items={quotesArray}
+            items={testimonialsArray}
             direction="right"
             speed="slow"
           />
